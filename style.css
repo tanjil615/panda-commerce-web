@@ -55,7 +55,8 @@
     box-shadow: 5px 5px 10px lightslategray;
 }
 .card:hover{
-    transform: scaleX(1.1);
+    transform: scale(1.1);
+    transition: transform 2s;
 }
 .card-footer{
     background-color: white;
